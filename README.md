@@ -10,13 +10,6 @@ Este projeto implementa uma **árvore binária** em Java para representar o **c�
 - O usuário pode digitar uma **mensagem em código Morse** e o sistema retorna a mensagem decodificada.
 - A árvore também é exibida de forma **hierárquica e compreensível no console**.
 
-## ✅ Regras atendidas
-
-- ❌ **Não** utilizamos arrays, listas, vetores, tipos genéricos ou estruturas avançadas.
-- ❌ **Não** utilizamos `split()`, `charAt()`, `equals()`, `StringBuilder`, `List`, `Arrays`, etc.
-- ✅ Utilizamos **apenas**: `String`, `int`, `float`, `substring()`, `Scanner`, e estruturas de controle como `if`, `while`.
-- ✅ Toda a manipulação de texto foi feita manualmente, respeitando as restrições do enunciado.
-
 ## 🛠️ Estrutura de Arquivos
 
 | Arquivo           | Função                                                             |
@@ -68,15 +61,3 @@ A árvore é exibida **de forma hierárquica e indentada**, mostrando as subárv
 | 1     | `.----`|
 | ...   | ...    |
 | 9     | `----.`|
-
-## 🎓 Créditos e Autores
-
-Este projeto foi desenvolvido para a disciplina de **Resolução de Problemas Estruturados em Computação I**.
-
-Todos os membros do grupo contribuíram na construção do código, documentação e explicação do projeto, conforme exigido pelo professor.
-
-## 📌 Observações Finais
-
-- O projeto foi desenvolvido com **cuidado para seguir todas as restrições** especificadas no enunciado.
-- O código está **comentado e dividido em partes lógicas** para facilitar o entendimento.
-- A árvore binária está **funcional, completa e hierarquicamente organizada**.
