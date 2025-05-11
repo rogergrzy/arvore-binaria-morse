@@ -1,37 +1,33 @@
-🧠 Nome do Projeto:
-Árvore Binária com Código Morse
+# Criando o conteúdo do README.md com base na estrutura solicitada
+readme_content = """
+# 🌐 Projeto: Árvore Binária com Código Morse
 
-📋 Descrição:
-Este projeto implementa uma árvore binária em Java, onde cada caminho representa a codificação Morse de um caractere (letra ou número). A árvore permite a inserção automática de caracteres, busca e decodificação de mensagens escritas em código Morse.
+## 📚 Descrição
 
-🚫 Regras atendidas:
-✅ Não utiliza listas, arrays dinâmicos, vetores, StringBuilder ou classes especiais.
+Este projeto implementa uma **árvore binária** em Java para representar o **código Morse**, onde:
+- Cada **caractere alfanumérico** (A–Z, 0–9) é posicionado na árvore conforme sua codificação em pontos (`.`) e traços (`-`).
+- Caminhos à **esquerda** representam **pontos (`.`)**.
+- Caminhos à **direita** representam **traços (`-`)**.
+- O usuário pode digitar uma **mensagem em código Morse** e o sistema retorna a mensagem decodificada.
+- A árvore também é exibida de forma **hierárquica e compreensível no console**.
 
-✅ Apenas String, int, Scanner e substring são utilizados.
+## ✅ Regras atendidas
 
-✅ Entrada do usuário lida manualmente, caractere por caractere.
+- ❌ **Não** utilizamos arrays, listas, vetores, tipos genéricos ou estruturas avançadas.
+- ❌ **Não** utilizamos `split()`, `charAt()`, `equals()`, `StringBuilder`, `List`, `Arrays`, etc.
+- ✅ Utilizamos **apenas**: `String`, `int`, `float`, `substring()`, `Scanner`, e estruturas de controle como `if`, `while`.
+- ✅ Toda a manipulação de texto foi feita manualmente, respeitando as restrições do enunciado.
 
-🧱 Estrutura:
-Node.java: estrutura do nó da árvore.
+## 🛠️ Estrutura de Arquivos
 
-ArvoreBinaria.java: classe da árvore com métodos de inserção, busca e exibição.
+| Arquivo           | Função                                                             |
+|-------------------|--------------------------------------------------------------------|
+| `Main.java`       | Executa o programa: recebe entrada do usuário e mostra a resposta |
+| `ArvoreBinaria.java` | Implementa a árvore binária com inserção, busca e exibição      |
+| `Node.java`       | Estrutura de cada nó da árvore (caractere + filhos)                |
+| `CodigoMorse.java`| Tabela estática com todos os caracteres e seus códigos Morse       |
 
-CodigoMorse.java: tabela com letras e seus códigos Morse.
+## 🎮 Como usar
 
-Main.java: classe principal com entrada do usuário e execução do sistema.
+### 1. Digite a mensagem em código Morse (separando letras com espaço):
 
-🧪 Exemplo de uso:
-Entrada:
-
-python-repl
-Copiar
-Editar
-... --- ...
-Saída:
-
-yaml
-Copiar
-Editar
-Mensagem decodificada: SOS
-📊 Exibição da árvore:
-A árvore é exibida de forma hierárquica, deitada, com os traços (ramos direitos) para cima e pontos (ramos esquerdos) para baixo.
