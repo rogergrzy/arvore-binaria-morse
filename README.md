@@ -1,5 +1,4 @@
-# Criando o conteúdo do README.md com base na estrutura solicitada
-readme_content = """
+
 # 🌐 Projeto: Árvore Binária com Código Morse
 
 ## 📚 Descrição
@@ -31,3 +30,53 @@ Este projeto implementa uma **árvore binária** em Java para representar o **c�
 
 ### 1. Digite a mensagem em código Morse (separando letras com espaço):
 
+```
+... --- ...
+```
+
+### 2. Saída esperada:
+
+```
+Mensagem decodificada: SOS
+```
+
+## 🌳 Exibição da árvore Morse
+
+A árvore é exibida **de forma hierárquica e indentada**, mostrando as subárvores de maneira organizada no console. Exemplo simplificado:
+
+```
+        M
+    T
+        N
+·
+        A
+    E
+        I
+```
+
+## 🧪 Exemplo de código Morse suportado
+
+| Letra | Código |
+|-------|--------|
+| A     | `.-`   |
+| B     | `-...` |
+| C     | `-.-.` |
+| D     | `-..`  |
+| ...   | ...    |
+| Z     | `--..` |
+| 0     | `-----`|
+| 1     | `.----`|
+| ...   | ...    |
+| 9     | `----.`|
+
+## 🎓 Créditos e Autores
+
+Este projeto foi desenvolvido para a disciplina de **Resolução de Problemas Estruturados em Computação I**.
+
+Todos os membros do grupo contribuíram na construção do código, documentação e explicação do projeto, conforme exigido pelo professor.
+
+## 📌 Observações Finais
+
+- O projeto foi desenvolvido com **cuidado para seguir todas as restrições** especificadas no enunciado.
+- O código está **comentado e dividido em partes lógicas** para facilitar o entendimento.
+- A árvore binária está **funcional, completa e hierarquicamente organizada**.
