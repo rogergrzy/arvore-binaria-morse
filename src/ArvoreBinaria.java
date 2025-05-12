@@ -32,7 +32,7 @@ public class ArvoreBinaria {
         atual.caractere = caractere;
     }
 
-    // Método buscar: recebe um código morse e tenta encontrar o caractere correspondete
+    // Método buscar: recebe um código morse e tenta encontrar o caractere correspondete.
     public char buscar(String codigo) {
         Node atual = raiz;
         int i = 0;

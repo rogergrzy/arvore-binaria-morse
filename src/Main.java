@@ -9,7 +9,7 @@ public class Main {
         ArvoreBinaria arvore = new ArvoreBinaria();
         arvore.inicializar();
 
-        // Inserção dos caracteres manualmente (sem arrays)
+        // Insercão dos caracteres do codigo morse na árvore (usando a base de dados CodigoMorse.java)
         int i = 0;
         while (i < CodigoMorse.tabelaMorse.length)
         {

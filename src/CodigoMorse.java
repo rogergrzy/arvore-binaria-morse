@@ -1,5 +1,5 @@
 // CódigoMorse.java: Classe que contém uma tabela estática e imutável com toda a tabela Morse.
-// Cada elemento da array
+// Elementos separados em duplas (letra/numero, simbolo morse).
 
 public class CodigoMorse {
     public static final String[][] tabelaMorse = {
